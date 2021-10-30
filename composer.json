@@ -1,0 +1,26 @@
+{
+    "name": "zqh/issues",
+    "type": "library",
+    "require": {
+        "knplabs/github-api": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zqh\\Hello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zqh",
+            "email": "931963708@qq.com"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable"
+}
